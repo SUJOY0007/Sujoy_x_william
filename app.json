@@ -9,7 +9,7 @@
   "env": {
     "SESSION_STRING": {
       "description": "Pyrogram String Session of assistant account",
-      "required": true
+      "required": false
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather on TG",
@@ -35,7 +35,7 @@
     },
     "OWNER_USERNAME": {
       "description": "Username of the person who will known as owner of the bot, without @",
-      "required": true,
+      "required": false,
       "value": "MT_LEXTUS_XD"
     },
     "LOG_GROUP_ID": {
@@ -60,14 +60,14 @@
       "description": "Telegraph link of the pic which you want to set as the ping pic of your bot",
       "required": true
     },
-    "PMPERMIT": {
+    "ARQ_API_URL": {
       "description": "If you want to notify users who pm to assistant account that it's the assistant account of your bot so don't spam messages there (ENABLE/DISABLE).",
-      "required": false,
+      "required": true,
       "value": "ENABLE"
     },
-    "DURATION_LIMIT": {
+    "ARQ_API_KEY": {
       "description": "Max audio duration limit for downloads (minutes).",
-      "required": false,
+      "required": true,
       "value": "90"
     }
   }
