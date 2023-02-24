@@ -7,7 +7,7 @@
   "repository": "https://github.com/SUJOY0007/Sujoy_x_william",
   "stack": "container",
   "env": {
-    "SESSION_NAME": {
+    "SESSION_STRING": {
       "description": "Pyrogram String Session of assistant account",
       "required": true
     },
@@ -27,37 +27,34 @@
     },
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps",
-      "required": false
+      "required": true
     },
     "API_HASH": {
       "description": "Get this value from from my.telegram.org/apps",
-      "required": false
+      "required": true
     },
     "OWNER_USERNAME": {
       "description": "Username of the person who will known as owner of the bot, without @",
-      "required": false,
-      "value": "export_gabbar"
+      "required": true,
+      "value": "MT_LEXTUS_XD"
     },
     "SUPPORT_GROUP": {
       "description": "Username of the group where users will go and disturb you, without @",
       "required": false,
-      "value": "GJ516_DISCUSS_GROUP"
+      "value": "COOKIE_WORLD"
 
     },
     "CHANNEL_UPDATES": {
       "description": "Username of the group where users will go and disturb you, without @",
-      "required": false,
-      "value": "myworldGJ516"
+      "required": true,
+      "value": "AASHIYANA_MERA"
 
     },
-    "SUDO_USERS": {
+    "SUDO_USERS_ID": {
       "description": "User IDs of the users who will counted as admin everywhere (if more than one separate them by space).",
       "required": true,
       "value": "1864894033"
-    },
-    "START_IMG": {
-      "description": "Telegraph link of the pic which you want to set as the start pic of your bot",
-      "required": false
+
     },
     "PING_IMG": {
       "description": "Telegraph link of the pic which you want to set as the ping pic of your bot",
