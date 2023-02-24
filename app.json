@@ -38,13 +38,13 @@
       "required": true,
       "value": "MT_LEXTUS_XD"
     },
-    "SUPPORT_GROUP": {
+    "LOG_GROUP_ID": {
       "description": "Username of the group where users will go and disturb you, without @",
-      "required": false,
+      "required": true,
       "value": "COOKIE_WORLD"
 
     },
-    "CHANNEL_UPDATES": {
+    "MONGO_URL": {
       "description": "Username of the group where users will go and disturb you, without @",
       "required": true,
       "value": "AASHIYANA_MERA"
@@ -56,9 +56,9 @@
       "value": "1864894033"
 
     },
-    "PING_IMG": {
+    "GBAN_LOG_GROUP_ID": {
       "description": "Telegraph link of the pic which you want to set as the ping pic of your bot",
-      "required": false
+      "required": true
     },
     "PMPERMIT": {
       "description": "If you want to notify users who pm to assistant account that it's the assistant account of your bot so don't spam messages there (ENABLE/DISABLE).",
